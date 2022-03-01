@@ -4,38 +4,20 @@ import math
 import pandas as pd
 import streamlit as st
 import numpy as np
-
+import warnings
+warnings.filterwarnings('ignore')
+%matplotlib inline
+import matplotlib.pyplot as plt
+import seaborn as sns
+import statsmodels.api as sm
 """
-# My first app
-Here's our first attempt at using data to create a table:
-"""
+# Importing the dataset
+Cobra = "C:\\Users\\administra\\Ponsse\\cobra_hv.xlsx"
+Ergo = "C:\\Users\\administra\\Ponsse\\ergo_hv.xlsx"
+Ambas= "C:\\Users\\administra\\Ponsse\\cobra_ergo_hv.xlsx"
 
-import streamlit as st
-import pandas as pd
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 40]
-})
+df = pd.read_excel(Cobra)
+dff = pd.read_excel(Ergo)
+both=pd.read_excel(Ambas)
 
-df
-
-x = st.slider('x')
-st.write(x, 'squared is', x * x)
-
-map_data = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-    columns=['lat', 'lon'])
-
-st.map(map_data)
-
-# Add a selectbox to the sidebar:
-add_selectbox = st.sidebar.selectbox(
-    'How would you like to be contacted?',
-    ('Email', 'Home phone', 'Mobile phone')
-)
-
-# Add a slider to the sidebar:
-add_slider = st.sidebar.slider(
-    'Select a range of values',
-    0.0, 100.0, (25.0, 75.0)
-)
+sns.boxplot(df['lreal/hrmot'])
