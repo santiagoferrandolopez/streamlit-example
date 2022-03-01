@@ -14,6 +14,4 @@ Cobra = "C:\\Users\\administra\\Ponsse\\cobra_hv.xlsx"
 Ergo = "C:\\Users\\administra\\Ponsse\\ergo_hv.xlsx"
 Ambas= "C:\\Users\\administra\\Ponsse\\cobra_ergo_hv.xlsx"
 
-df = pd.read_excel(Cobra)
-dff = pd.read_excel(Ergo)
-both=pd.read_excel(Ambas)
+
