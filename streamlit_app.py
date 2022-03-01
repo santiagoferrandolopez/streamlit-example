@@ -17,5 +17,3 @@ Ambas= "C:\\Users\\administra\\Ponsse\\cobra_ergo_hv.xlsx"
 df = pd.read_excel(Cobra)
 dff = pd.read_excel(Ergo)
 both=pd.read_excel(Ambas)
-
-sns.heatmap(df.corr(), annot=True)
