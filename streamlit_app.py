@@ -18,4 +18,4 @@ df = pd.read_excel(Cobra)
 dff = pd.read_excel(Ergo)
 both=pd.read_excel(Ambas)
 
-sns.boxplot(df['lreal/hrmot'])
+
