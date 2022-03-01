@@ -4,7 +4,7 @@ import numpy as np
 # Importing the libraries
 import warnings
 warnings.filterwarnings('ignore')
-%matplotlib inline
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
