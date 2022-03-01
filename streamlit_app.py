@@ -5,8 +5,6 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 import warnings
-warnings.filterwarnings('ignore')
-%matplotlib inline
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
