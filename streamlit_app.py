@@ -9,4 +9,4 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
 """
-st.markdown("Ponsse Data Analysis")
+st.title("Ponsse Data Analysis")
