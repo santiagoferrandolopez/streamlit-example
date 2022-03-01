@@ -17,4 +17,7 @@ df = pd.read_excel(Cobra)
 dff = pd.read_excel(Ergo)
 both=pd.read_excel(Ambas)
 
+st.dataframe(df)
+st.dataframe(dff)
+st.dataframe(both)
 
