@@ -10,9 +10,14 @@ st.title("Harvester Data Analysis")
 st.header("Productivity DATA")
 st.subheader("MOM analytics")
 st.text("What´s the hell is going on")
+
 #Displaying Colored Text/Boostraps Alert
 st.success("What")
 st.warning("Cuidado")
 st.info("Información")
 st.error("Error")
 st.exception("Excepción")
+
+#Superfunction
+st.write("##This is a text")
+st.write(1+2)
