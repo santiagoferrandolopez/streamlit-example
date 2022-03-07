@@ -20,5 +20,6 @@ st.text("What´s the hell is going on")
 #st.exception("Excepción")
 
 #Superfunction
-st.write("## This is a text")
+st.write("Normal text")
+st.write("## This is a markdown text")
 st.write(1+2)
