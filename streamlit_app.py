@@ -23,3 +23,6 @@ st.text("What´s the hell is going on")
 st.write("Normal text")
 st.write("## This is a markdown text")
 st.write(1+2)
+
+#Help info
+st.help(range)
