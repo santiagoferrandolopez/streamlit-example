@@ -6,5 +6,5 @@ import numpy as np
 import pandas as pd
 import numpy as np
 
-st.title("Ponsse Data Analysis")
+st.title("Harvester Data Analysis")
 
