@@ -24,5 +24,7 @@ st.write("Normal text")
 st.write("## This is a markdown text")
 st.write(1+2)
 
+st.write(dir(st))
+
 #Help info
 st.help(range)
