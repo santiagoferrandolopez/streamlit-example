@@ -9,5 +9,5 @@ import numpy as np
 st.title("Harvester Data Analysis")
 st.header("Productivity DATA")
 st.subheader("MOM analytics")
-Ponsse = "C:\\Users\\Administra\\Documents\\Data Science\\Streamlit\\Ponsse.xlsx"
+Ponsse = "https://github.com/santiagoferrandolopez/streamlit-example/blob/master/Ponsse.xlsx"
 df=pd.read_excel("Ponsse")
